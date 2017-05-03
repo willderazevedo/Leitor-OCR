@@ -48,9 +48,8 @@
 }
 
 
-.footer {
-    position: absolute;
-    bottom: 0;
+.main {
+    margin-bottom: 25%;
 }
 
 .vertical-align {
