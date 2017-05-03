@@ -1,0 +1,66 @@
+.recognized-text {
+    width: 100%;
+    height: 150px;
+    resize: none;
+    border: 1px solid #ddd;
+}
+
+.box-image {
+    border: 1px solid #ddd;
+    height: 150px;
+    width: 100%;
+}
+
+.box-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.fab.pick-file {
+    position: fixed;
+    right: 30px;
+    bottom: 100px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.fab.recognize {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.fab.pick-file:active {
+    bottom: 98px;
+}
+
+.fab.recognize:active {
+    bottom: 28px;
+}
+
+.fab .fa {
+    margin: 13px;
+    font-size: 23px;
+}
+
+
+.footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.vertical-align {
+    margin-top: 70px;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
